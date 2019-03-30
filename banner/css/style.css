@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif, serif;
+    color: #555248;
+  }
+  
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .container {
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .one_cir {
+    background: url('/bunner/img/circle_1.png') no-repeat right 50%;
+  }
+
+  .two_cir {
+    background: url('/bunner/img/circle_2.png') no-repeat left top;
+  }
+
+  .three_cir {
+    background: url('/bunner/img/circle_3.png') no-repeat right top;
+
+  }
+
+  .iphone_container {
+      padding-top: 75px;
+      position: relative;
+      margin-bottom: 40px;
+  }
+
+  .iphones {
+      margin-left: -200px; 
+  }
+
+  .logo {
+    opacity: 0;
+    margin-left: 70px;
+    height: 36px;
+    width: 150px;
+    position: relative;
+  }
+
+  .subtitle {
+    opacity: 0;
+    display: inline-block;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    width: 80%;
+    position: relative;
+  }
+
+  .button {
+    opacity: 0;
+    background-color:  rgb(93, 217, 192);
+    width: 125px;
+    height: 34px;
+    margin-top: 10px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+  }
+
+  
